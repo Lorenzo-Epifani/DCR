@@ -3,11 +3,37 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
 var indexRouter = require('./routes/index');
 var pictureRouter = require('./routes/picture');
-
 var app = express();
+
+//TEST MONGO########################################################
+//TO DO AS MODULE
+const MongoClient = require('mongodb').MongoClient;
+const assert = require('assert');
+
+// Connection URL
+const url = 'mongodb://localhost:27017';
+
+// Database Name
+const dbName = 'myproject';
+
+// Create a new MongoClient
+const client = new MongoClient(url,/* remove to read the option */ {useNewUrlParser: true});
+
+// Use connect method to connect to the Server
+client.connect(function(err) {
+  assert.equal(null, err);
+  console.log("Connected successfully to Mongodb");
+
+  const db = client.db(dbName);
+
+  client.close();
+});
+
+//const mongoinstance = require('./persistent/mongodriver');
+//TEST MONGO##############################################################à
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -18,7 +44,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
 app.use('/', indexRouter);
 app.use('/picture', pictureRouter);
 

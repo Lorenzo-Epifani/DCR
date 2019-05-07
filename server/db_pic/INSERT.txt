@@ -1,48 +1,288 @@
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./cittaproibita.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./santagostinomanila.jpg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./cristorio.jpg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./forteamber.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./municipiogotico.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./chiesasannavilnius.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./torrepisa.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./bigben.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./castellohimeji.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./brandeburgo.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./statuepasqua.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./hofburg.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./statualiberta.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./madrasabenyoussef.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./singe.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./cattedralesanbasilio.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./giza.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./samarra.jpg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./malborkcastello.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./castelloedinburgo.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./david.JPG');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./basilicasantasofia.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./baldacchinosanpietro.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./nuraghe.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./eiffel_tower.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./tempio_haeinsa.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./arcotrionfo.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./ponte_coperto.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./bronziriace.jpg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./cattedralesangiacomo.jpg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./sagradafamilia.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./INSERT.txt');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./mausoleokhoja.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./londoneye.jpg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./pietavaticana.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./query.sh');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./tajmahal.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./notredame.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./giralda.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./chichenitza.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./pantheonatene.jpg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./stonehenge.jpg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./moscheaomayyadi.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./colosseo.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./primatorresmarino.jpg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./muragliacinese.jpeg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./arenaverona.jpg');
-INSERT INTO `mydb`.`picture` (`relink`) VALUES ('./moleantonelliana.jpg');
+db.pic.insertOne({ 
+
+		"rel" : "'./cittaproibita.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./santagostinomanila.jpg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./cristorio.jpg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./forteamber.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./municipiogotico.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./chiesasannavilnius.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./torrepisa.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./bigben.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./castellohimeji.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./brandeburgo.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./statuepasqua.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./hofburg.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./statualiberta.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./madrasabenyoussef.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./singe.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./cattedralesanbasilio.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./giza.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./samarra.jpg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./malborkcastello.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./castelloedinburgo.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./david.JPG'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./basilicasantasofia.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./baldacchinosanpietro.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./nuraghe.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./eiffel_tower.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./tempio_haeinsa.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./arcotrionfo.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./ponte_coperto.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./bronziriace.jpg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./cattedralesangiacomo.jpg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./sagradafamilia.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./INSERT.txt'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./mausoleokhoja.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./londoneye.jpg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./pietavaticana.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./query.sh'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./tajmahal.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./notredame.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./giralda.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./chichenitza.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./pantheonatene.jpg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./stonehenge.jpg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./moscheaomayyadi.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./colosseo.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./primatorresmarino.jpg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./muragliacinese.jpeg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./arenaverona.jpg'",
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "'./moleantonelliana.jpg'",
+       
+        	}
+	)

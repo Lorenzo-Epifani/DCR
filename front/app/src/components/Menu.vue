@@ -56,7 +56,8 @@ export default {
 }
 
 #btn1 {
-         animation: fadein 3s;
+         animation-duration: fadein 3s;
+         animation-delay: fadein 1s
 }
 
 #btn2 {
