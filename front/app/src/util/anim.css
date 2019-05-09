@@ -80,6 +80,17 @@
    
   }
 
+  @keyframes delayinv {
+    from { opacity: 0; }
+    to { opacity: 0; }
+
+  }
+
+  @font-face {
+    font-family: custom;
+    src: url(a101.ttf);
+  }
+
 @keyframes rot {
    0% {
     transform: rotate(0);

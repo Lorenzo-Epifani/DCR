@@ -9,10 +9,11 @@
           </div>  
           -->
      
-               <div class="homebtn" id="btn2">     
+               <div class="homebtn" id="btn1">     
                     <router-link to="/fill">
-                         <md-button class="md-icon-button ">
+                         <md-button class="md-icon-button " >
                               <md-icon>dashboard</md-icon>
+                              <btntxt>store<br/>meta</btntxt>
                          </md-button>
                     </router-link>  
                </div>  
@@ -22,6 +23,8 @@
                     <router-link to="/search">
                     <md-button class="md-icon-button ">
                               <md-icon>search</md-icon>
+                              <btntxt>search</btntxt>
+
                          </md-button>
                     </router-link>
                </div>  
@@ -55,17 +58,31 @@ export default {
 
 }
 
-#btn1 {
-         animation-duration: fadein 3s;
-         animation-delay: fadein 1s
+#btn2 {
+        
+         animation: fadein 3s 1s, delayinv 1s;
+
+
 }
 
-#btn2 {
+#btn1 {
       animation: fadein 3s;
 }
 
 i.md-icon.md-icon-font.md-theme-default {
     color: #00E676;
+}
+
+btntxt {
+     zoom: 0.3;
+     color: #00E676;
+     font-family: custom;
+
+
+}
+
+.md-button-content {
+    display: grid;
 }
 
 </style>

@@ -7,8 +7,10 @@ var indexRouter = require('./routes/index');
 var pictureRouter = require('./routes/picture');
 var app = express();
 
+
 //TEST MONGO########################################################
-//TO DO AS MODULE
+//TO DO AS MODULE 
+/*
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
@@ -16,21 +18,23 @@ const assert = require('assert');
 const url = 'mongodb://localhost:27017';
 
 // Database Name
-const dbName = 'myproject';
+const dbName = 'DCR';
 
 // Create a new MongoClient
-const client = new MongoClient(url,/* remove to read the option */ {useNewUrlParser: true});
+const client = new MongoClient(url, {useNewUrlParser: true});
 
 // Use connect method to connect to the Server
 client.connect(function(err) {
   assert.equal(null, err);
   console.log("Connected successfully to Mongodb");
-
   const db = client.db(dbName);
+  const col =db.collection('pic')
+  console.log(col.find({a:1}))
+
 
   client.close();
 });
-
+*/
 //const mongoinstance = require('./persistent/mongodriver');
 //TEST MONGO##############################################################à
 

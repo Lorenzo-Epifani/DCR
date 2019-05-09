@@ -31,13 +31,13 @@ export default {
   a {
     font-weight: bold;
     color: #2c3e50;
-   
   }
 }
 
 html.md-theme-default {
 
   background-color: #616161
+
 
 }
 </style>
