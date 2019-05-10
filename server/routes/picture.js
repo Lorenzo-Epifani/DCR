@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var MongoClient = require ('mongodb').MongoClient;
+var driver = require('../persistent/mongodriver')
 var assert = require('assert');
 var url = 'mongodb://localhost:27017'
 
@@ -12,7 +13,7 @@ const client = new MongoClient(url,/* remove to read the option */ {useNewUrlPar
 
 /* GET users listing. */
 router.get('/dBtest', function (req,res) {
-  var resultArray = [];
+ /* var resultArray = [];
   client.connect(function(err) {
 
   assert.equal(null,err);
@@ -25,7 +26,18 @@ router.get('/dBtest', function (req,res) {
         //client.close();
         res.send(resultArray);
       });
-  });
+  }); */
+driver.startconnect(function(db){
+  driver.findAll(db,function(dbres){
+    res.send(dbres)
+
+    })
+
+
+  })
+
+
+
 });
 
 module.exports = router;
