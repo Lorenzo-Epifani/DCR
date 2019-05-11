@@ -3,6 +3,9 @@ var router = express.Router();
 var MongoClient = require ('mongodb').MongoClient;
 var driver = require('../persistent/mongodriver')
 var assert = require('assert');
+var bodyParser = require('body-parser');
+router.use(bodyParser.urlencoded({ extended: true }));
+router.use(bodyParser.json());
 var url = 'mongodb://localhost:27017'
 
 // Database Name
@@ -32,13 +35,19 @@ driver.startconnect(function(db){
     res.send(dbres)
 
     })
-
-
   })
-
-
-
 });
+
+/* GET users listing. */
+router.get('/Search', function (req,res) {
+ var exp='Beijing' ///TEST; GET FROM REQUEST BODY
+  driver.startconnect(function(db){
+   driver.generalFind(db,exp,function(dbres){
+     res.send(dbres)
+ 
+     })
+   })
+ });
 
 module.exports = router;
 

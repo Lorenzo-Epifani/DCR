@@ -22,8 +22,9 @@ function startconnect (callback){
     
     });
 };
-//QUERIES
-const findAll = function(db, callback) {
+//QUERIES-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####
+
+const findAll = function(db, callback) {  //GETALL
   var resultArray = [];
   var cursor = db.collection('pic').find();
   cursor.forEach(function(doc,err){
@@ -34,7 +35,21 @@ const findAll = function(db, callback) {
       callback(resultArray);
     });
 }
+//QUERIES-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####
+
+const generalFind = function(db,exp, callback) {            //GENERAL TEXT SEARCH
+  var resultArray = [];
+  var cursor = db.collection('pic').find({$text:{ $search: exp, $caseSensitive: false}});
+  cursor.forEach(function(doc,err){
+    assert.equal(null,err);
+    resultArray.push(doc);
+    }, function(){
+      //client.close();
+      callback(resultArray);
+    });
+}
+//QUERIES-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####
 
 module.exports.startconnect = startconnect;
 module.exports.findAll = findAll;
-
+module.exports.generalFind = generalFind;

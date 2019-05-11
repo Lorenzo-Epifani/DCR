@@ -12,3 +12,11 @@ export async function getAllData () {
 
     return response.data
   }
+
+  export async function generalSearch () {
+    const response = await instance.get('/picture/Search')
+    console.log(response.data)
+    console.log('axios')
+
+    return response.data
+  }
