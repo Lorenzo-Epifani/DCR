@@ -13,10 +13,12 @@ export async function getAllData () {
     return response.data
   }
 
-  export async function generalSearch () {
-    const response = await instance.get('/picture/Search')
+  export async function generalSearch (formData) {
+    const response = await instance.post('/picture/Search', {FormData: formData})
+    console.log(formData)
+    console.log('axios-RESPONSE OBTAINED BY GEN SEARCH')
     console.log(response.data)
-    console.log('axios')
+   
 
     return response.data
   }

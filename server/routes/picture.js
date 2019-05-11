@@ -39,8 +39,9 @@ driver.startconnect(function(db){
 });
 
 /* GET users listing. */
-router.get('/Search', function (req,res) {
- var exp='Beijing' ///TEST; GET FROM REQUEST BODY
+router.post('/Search', function (req,res) {
+  console.log(req.body)
+ var exp=req.body.FormData ///TEST; GET FROM REQUEST BODY
   driver.startconnect(function(db){
    driver.generalFind(db,exp,function(dbres){
      res.send(dbres)

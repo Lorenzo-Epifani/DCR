@@ -4,9 +4,9 @@
         
         <label>Type your search here!</label>
         
-        <md-input v-model="type"></md-input>
+        <md-input v-model="type" ref="search" name="inp" id="inp"></md-input>
     
-        <md-button class="md-icon-button ">
+        <md-button class="md-icon-button" v-on:click="onClick()">
             <md-icon>search</md-icon>
         </md-button>
     
@@ -16,6 +16,7 @@
 </template>
 
 <script>
+import * as api from '../api/api.js'
 export default {
     
     name: 'genSearch',
@@ -25,6 +26,17 @@ export default {
         type:null,
         }
     },
+    methods: { onClick () {
+        var bodyFormData = new FormData();
+       // console.log(this.$refs.search.value) 
+        bodyFormData.append('searchinput', this.$refs.search.value)
+       // console.log(bodyFormData.search)
+        api.generalSearch(this.$refs.search.value)
+
+            
+    
+  
+        }}
 
 }
 </script>
