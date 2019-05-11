@@ -13,7 +13,7 @@
                     <router-link to="/fill">
                          <md-button class="md-icon-button " >
                               <md-icon>dashboard</md-icon>
-                              <h1 id="btntxt">Store<br/>meta</h1>
+                              <btntxt>store<br/>meta</btntxt>
                          </md-button>
                     </router-link>  
                </div>  
@@ -23,7 +23,7 @@
                     <router-link to="/search">
                     <md-button class="md-icon-button ">
                               <md-icon>search</md-icon>
-                              <h1 id="btntxt">Search</h1>
+                              <btntxt>search</btntxt>
 
                          </md-button>
                     </router-link>
@@ -74,8 +74,8 @@ i.md-icon.md-icon-font.md-theme-default {
 ;
 }
 
-#btntxt {
-     zoom: 0.15;
+btntxt {
+     zoom: 0.33;
      color: #EF6C00
 ;
      font-family: custom;

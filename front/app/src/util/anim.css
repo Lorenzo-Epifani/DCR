@@ -86,10 +86,7 @@
 
   }
 
-  @font-face {
-    font-family: custom;
-    src: url(Signatra.ttf);
-  }
+  
 
 @keyframes rot {
    0% {
@@ -184,4 +181,9 @@
     transform: rotateY(3600deg);
     
   }
+}
+
+@font-face {
+  font-family: custom;
+  src: url(vnt.otf);
 }

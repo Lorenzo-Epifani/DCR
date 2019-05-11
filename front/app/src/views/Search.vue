@@ -1,5 +1,20 @@
 <template>
   <div class="search">
-    <h1>This is a search pagee</h1>
+  <genSearch></genSearch> 
   </div>
 </template>
+
+
+<script>
+import genSearch from '@/components/genSearch.vue'
+
+export default {
+    name: 'Search',
+
+    components: {
+      genSearch
+    },
+
+  
+}
+</script>
