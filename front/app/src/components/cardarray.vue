@@ -28,7 +28,8 @@ export default {
 <style>
     #cards > * {
         display:inline-block;
-         animation: bounceInUp 0.6s;
+        animation:  fadein 1s;
+        text-align: left
     
     }
 </style>

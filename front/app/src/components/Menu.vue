@@ -11,7 +11,7 @@
      
                <div class="homebtn" id="btn1">     
                     <router-link to="/fill">
-                         <md-button class="md-icon-button " >
+                         <md-button class="md-icon-button" >
                               <md-icon>dashboard</md-icon>
                               <btntxt>store<br/>meta</btntxt>
                          </md-button>
@@ -30,6 +30,12 @@
                </div>  
 
           </div>
+
+           <md-tabs class="phone"  md-sync-route>
+                 <md-tab id="tab-1" md-label="meta" md-icon="dashboard" to="/fill"></md-tab>
+                 <md-tab id="tab-2" md-label="search" md-icon="dashboard" to="/search"></md-tab>
+
+          </md-tabs>
       </div>
 
 
@@ -69,7 +75,7 @@ export default {
       animation: fadein 3s;
 }
 
-i.md-icon.md-icon-font.md-theme-default {
+ i.md-icon.md-icon-font.md-theme-default {
     color: #EF6C00
 ;
 }
@@ -83,9 +89,35 @@ btntxt {
 
 }
 
-.md-button-content {
+.mainselect .md-button-content {
     display: grid;
 }
+
+.md-tabs-navigation.md-elevation-0 {
+    margin: auto;
+}
+
+.phone .md-button-content {
+     animation: fadein 3s;
+
+}
+
+
+
+/* ----------------------------------RESPONSIVE---------------------------------- */
+    @media not screen and (max-width: 600px) {
+   .md-tabs.phone.md-alignment-left.md-theme-default, .md-tabs.phone.md-alignment-left.md-theme-default *  {
+       display:none;
+
+    }
+}
+    
+        @media only screen and (max-width: 600px) {
+    .mainselect, .mainselect * {
+        display:none;        
+    }
+}
+/* ----------------------------------RESPONSIVE---------------------------------- */
 
 </style>
 

@@ -57,5 +57,8 @@
     margin: auto;
     margin-top: 10px;
 }
+div#cards {
+    text-align: left;
+}
  </style>
  
