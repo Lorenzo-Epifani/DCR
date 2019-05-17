@@ -93,8 +93,14 @@ btntxt {
     display: grid;
 }
 
-.md-tabs-navigation.md-elevation-0 {
-    margin: auto;
+.phone a.md-button.router-link-exact-active.router-link-active.md-theme-default.md-active.md-icon-label {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phone a.md-button.md-theme-default.md-icon-label {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .phone .md-button-content {

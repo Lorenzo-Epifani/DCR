@@ -33,7 +33,7 @@
     },
     
     mounted () {
-        this.title=this.picture.class;
+        this.title=this.picture.name;
         console.log(this.source)
 
     },

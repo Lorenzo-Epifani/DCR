@@ -1,0 +1,433 @@
+db.pic.insertOne({ 
+
+		"rel" : "./cittaproibita.jpeg", "name": "Forbidden City", "class" : "Imperial Palace", "Country" : "China", "City" : "Pechino", "height" : "",
+		"additional_info" : "The Forbidden City, dynasty Ming, Qing, emperos, wall", "colur" : "red",
+		"description" : "The Forbidden City is a palace complex in central Beijing, China. The former Chinese imperial palace from the Ming 
+		dynasty to the end of the Qing dynasty (the years 1420 to 1912), it now houses the Palace Museum. The Forbidden City served as the home 
+		of emperors and their households as well as the ceremonial and political center of Chinese government for almost 500 years."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./santagostinomanila.jpg", "name": "San Agustin Church", "class" : "Baroque Church", "Country" : "Philippines", "City" : "Manila", "height" : "",
+		"additional_info" : "Intramuros, Patrimony of humanity,  SantAgostino, tower, bell tower, columns, cross", "colur" : "yellow", 
+        "description" : "The San Agustin Church in Manila, also known as The Church of the Immaculate Conception of San Agustín was the first church 
+		built on the island of Luzon in 1571, immediately after the Spanish conquest of Manila. A site within the district of Intramuros was assigned 
+		to the Augustinian Order, the first to evangelize in the Philippines. In 1587 the impermanent earliest building in wood and palm fronds was replaced 
+		by a stone church and monastery in stone, the latter becoming the Augustinian mother house in the Philippines."
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./cristorio.jpg", "name": "Christ the Redeemer", "class" : "Statue", "Country" : "Brazil", "City" : "Rio De Janeiro", "height" : "30m",
+		"additional_info" : "Art Déco, Jesus Christ, mountain Corcovado, modern the seven wonders of the world", "colur" : "grey", 
+		"description" : "Christ the Redeemer (Portuguese: Cristo Redentor) is an Art Deco statue of Jesus Christ in Rio de Janeiro, 
+		Brazil, created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with 
+		French engineer Albert Caquot. Romanian sculptor Gheorghe Leonida fashioned the face. Constructed between 1922 and 1931, the 
+		statue is 30 metres (98 ft) high, excluding its 8-metre (26 ft) pedestal. The arms stretch 28 metres (92 ft) wide."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./forteamber.jpeg", "name": "Amer Fort", "class" : "Fort", "Country" : "India", "City" : "Amer", "height" : "",
+		"additional_info" : "Jaipur, tribù Meenas, lake Maota, wall, door", "colur" : "yellow", 
+        "description" : "Amer Fort is a fort located in Amer, Rajasthan, India. Amer is a town with an area of 4 square kilometres 
+		(1.5 sq mi) located 11 kilometres (6.8 mi) from Jaipur, the capital of Rajasthan. Located high on a hill, it is the principal 
+		tourist attraction in Jaipur. The town of Amer was originally built by Meenas, and later it was ruled by Raja Man Singh I. 
+		Amer Fort is known for its artistic style elements. With its large ramparts and series of gates and cobbled paths, the fort 
+		overlooks Maota Lake, which is the main source of water for the Amer Palace."
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./municipiogotico.jpeg", "name": "City Hall", "class" : "City Hall", "Country" : "Belgium", "City" : "Leuven", "height" : "",
+		"additional_info" : "Tower, window, Gothic", "colur" : "yellow grey", 
+        "description" : "The City Hall of Leuven, Belgium, is a landmark building on that city's Grote Markt (Main Market) square, 
+		across from the monumental St. Peter's Church. Built in a Brabantine Late Gothic style between 1448 and 1469, it is famous 
+		for its ornate architecture, crafted in lace-like detail."
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./chiesasannavilnius.jpeg", "name": "St. Anne's Church", "class" : "Gothic Church", "Country" : "Lithuanian", "City" : "Vilnius", "height" : "",
+		"additional_info" : "Tower, cross, columns, door, bell tower", "colur" : "rust red", 
+        "description" : "St. Anne's Church is a Roman Catholic church in Vilnius' Old Town, on the right bank of the Vilnia River. It is a prominent 
+		example of both Flamboyant Gothic and Brick Gothic styles. St. Anne's is a prominent landmark in the Old Town of Vilnius that enabled the 
+		district to be included in the list of UNESCO World Heritage sites. And it is one of the most interesting examples of Gothic architecture in Lithuania."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./torrepisa.jpeg", "name": "Tower of Pisa", "class" : "Tower", "Country" : "Italy", "City" : "Pisa", "height" : "55.86 m",
+		"additional_info" : "Tower, door, columns", "colur" : "white", 
+        "description" : "The Leaning Tower of Pisa (Italian: Torre pendente di Pisa) or simply the Tower of Pisa is the campanile,
+		or freestanding bell tower, of the cathedral of the Italian city of Pisa, known worldwide for its nearly four-degree lean, 
+		the result of an unstable foundation. The tower is situated behind the Pisa Cathedral and is the third oldest structure in 
+		the city's Cathedral Square (Piazza del Duomo), after the cathedral and the Pisa Baptistry."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./bigben.jpeg", "name": "Big Ben", "class" : "Tower", "Country" : "United Kingdom", "City" : "London", "height" : "96 m",
+		"additional_info" : "Tower, door, clock", "colur" : "yellow grey", 
+        "description" : "Big Ben is the nickname for the Great Bell of the clock at the north end of the Palace of Westminster 
+		in London and is usually extended to refer to both the clock and the clock tower. The official name of the tower in which 
+		Big Ben is located was originally the Clock Tower, but it was renamed Elizabeth Tower in 2012 to mark the Diamond Jubilee of Elizabeth II."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./castellohimeji.jpeg", "name": "Himeji Castle", "class" : "Castle", "Country" : "Japan", "City" : "Himeji", "height" : "46.4 m",
+		"additional_info" : "Tower, door, wall, fort", "colur" : "white grey", 
+        "description" : "Himeji Castle is a hilltop Japanese castle complex situated in the city of Himeji which 
+		is located in the Hyōgo Prefecture of Japan. The castle is regarded as the finest surviving example of prototypical Japanese 
+		castle architecture, comprising a network of 83 rooms with advanced defensive systems from the feudal period. The castle is 
+		frequently known as Hakuro-jō or Shirasagi-jō ("White Egret Castle" or "White Heron Castle") because of its brilliant white 
+		exterior and supposed resemblance to a bird taking flight."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./brandeburgo.jpeg", "name": "Brandenburg Gate", "class" : "Gate", "Country" : "Germany", "City" : "Brandenburg", "height" : "46.4 m",
+		"additional_info" : "Port, door, columns, statue", "colur" : "yellow grey", 
+        "description" : "The Brandenburg Gate is an 18th-century neoclassical monument in Berlin, built on the orders of Prussian 
+		king Frederick William II after the (temporarily) successful restoration of order during the early Batavian Revolution.
+		One of the best-known landmarks of Germany, it was built on the site of a former city gate that marked the start of the road 
+		from Berlin to the town of Brandenburg an der Havel, which used to be capital of the Margraviate of Brandenburg."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./statuepasqua.jpeg", "name": "Moai", "class" : "Statue", "Country" : "Easter Island", "City" : "", "height" : "2.5-10 m",
+		"additional_info" : "face, columns, statue", "colur" : "grey", 
+        "description" : "Moai are monolithic human figures carved by the Rapa Nui people on Easter Island in eastern Polynesia between 
+		the years 1250 and 1500. Nearly half are still at Rano Raraku, the main moai quarry, but hundreds were transported from there 
+		and set on stone platforms called ahu around the island's perimeter. Almost all moai have overly large heads three-eighths the 
+		size of the whole statue. The moai are chiefly the living faces (aringa ora) of deified ancestors (aringa ora ata tepuna).
+		The statues still gazed inland across their clan lands when Europeans first visited the island in 1722, but all of them had 
+		fallen by the latter part of the 19th century."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./hofburg.jpeg", "name": "Hofburg", "class" : "Imperial Palace", "Country" : "Austria", "City" : "Vienna", "height" : "",
+		"additional_info" : "door , columns, statue, window, sky", "colur" : "light blue, green, yellow", 
+        "description" : "The Hofburg is the former principal imperial palace of the Habsburg dynasty rulers and today serves as the official 
+		residence and workplace of the President of Austria. It is located in the center of Vienna and was built in the 13th century and expanded 
+		several times afterwards. It also served as the imperial winter residence, as Schönbrunn Palace was the summer residence."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./statualiberta.jpeg", "name": "Statue of Liberty", "class" : "Statue", "Country" : "United States", "City" : "New York", "height" : "46 m",
+		"additional_info" : "human, torh, book, crown, sky, claud", "colur" : "grey, green, light blue", 
+        "description" : "The Statue of Liberty (Liberty Enlightening the World; French: La Liberté éclairant le monde) is a colossal neoclassical 
+		sculpture on Liberty Island in New York Harbor in New York, in the United States. The copper statue, a gift from the people of France to
+		the people of the United States, was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave Eiffel. 
+		The statue was dedicated on October 28, 1886."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./madrasabenyoussef.jpeg", "name": "Ben Youssef Madrasa", "class" : "college", "Country" : "Marocco", "City" : "Marrakesh", "height" : "",
+		"additional_info" : "rooms, door, windows, columns", "colur" : "light red, white", 
+        "description" : "he Ben Youssef Madrasa is an Islamic college in Marrakesh, Morocco. Functioning today as an Islamic
+		historical site, the Ben Youssef Madrasa was the largest Islamic college in Morocco during its height. Named after the Almoravid Sultan Ali ibn Yusuf 
+		(reigned 1106-1142), who expanded the city of Marrakesh and its influence considerably, the madrasa that stands today was built during the rule of 
+		Sa'di Sultan Sidi Abdallah al-Ghalib in the Marinid style. The layout of the building centers around a main courtyard, which is surrounded by 
+		east and west open-air galleries and student dormitories on the upper and lower levels."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./singe.jpeg", "name": "Sphinx", "class" : "Statue", "Country" : "Egypt", "City" : "Giza", "height" : "73 m",
+		"additional_info" : "face, lion, human, sand, sky, statue", "colur" : "light blue, light yellow", 
+        "description" : "The Great Sphinx of Giza, commonly referred to as the Sphinx of Giza or just the Sphinx, is a limestone statue of 
+		a reclining sphinx, a mythical creature with the body of a lion and the head of a human."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./cattedralesanbasilio.jpeg", "name": "Saint Basil's Cathedral", "class" : "Cathedral", "Country" : "Russia", "City" : "Moscow", "height" : "47.5 m",
+		"additional_info" : "columns, towers, doors, windows, sky, claud, cars", "colur" : "blue, green, pink, yellow, lightblue", 
+        "description" : "The Cathedral of Vasily the Blessed, commonly known as Saint Basil's Cathedral, is a church in Red Square in Moscow, Russia and 
+		is one of the most recognizable symbols of the country. The building, now a museum, is officially known as the Cathedral of the Intercession of 
+		the Most Holy Theotokos on the Moat or Pokrovsky Cathedral."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./giza.jpeg", "name": "Pyramid of Giza", "class" : "Pyramid", "Country" : "Egypt", "City" : "Giza", "height" : "146.7 m",
+		"additional_info" : "sand, sky, claud", "colur" : "lightblue, blue, ligthyellow, yellow", 
+        "description" : "The Great Pyramid of Giza (also known as the Pyramid of Khufu or the Pyramid of Cheops) is the oldest and largest 
+		of the three pyramids in the Giza pyramid complex bordering present-day El Giza, Egypt. It is the oldest of the Seven Wonders of
+		the Ancient World, and the only one to remain largely intact."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./samarra.jpg", "name": "Mosque of Samarra", "class" : "Mosque", "Country" : "Iraq", "City" : "Samarra", "height" : "52 m",
+		"additional_info" : "tower, road, stairs, human, sky, cloud, door, windows, columns", "colur" : "lightblue, blue, lightyellow, yellow", 
+        "description" : "he Great Mosque of Samarra is a ninth-century mosque located in Samarra, Iraq. The mosque was commissioned in 848 and 
+		completed in 851 by the Abbasid caliph Al-Mutawakkil who reigned (in Samarra) from 847 until 861. The mosque is located within the 15,058-hectare
+		Samarra Archaeological City UNESCO World Heritage Site, listed in 2007."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./malborkcastello.jpeg", "name": "Malbork Castle", "class" : "Castle", "Country" : "Poland", "City" : "Malbork", "height" : "",
+		"additional_info" : "river, tree, castle, wall, door, window, tower", "colur" : "light blue, green, light red, grey", 
+        "description" : "The Castle of the Teutonic Order in Malborks a 13th-century Teutonic castle and fortress located near the town of Malbork, Poland. 
+		It is the largest castle in the world measured by land area and a UNESCO World Heritage Site."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./castelloedinburgo.jpeg", "name": "Edinburgh Castle", "class" : "Castle", "Country" : "Scotland", "City" : "Edinburgh", "height" : "",
+		"additional_info" : "tower, wall, door, windows, mountain, sky", "colur" : "grey, blue, green", 
+        "description" : "Edinburgh Castle is a historic fortress which dominates the skyline of the city of Edinburgh, Scotland from its position on the Castle Rock. 
+		Archaeologists have established human occupation of the rock since at least the Iron Age (2nd century AD), although the nature of the early settlement is unclear. 
+		There has been a royal castle on the rock since at least the reign of David I in the 12th century, and the site continued to be a royal residence until 1633."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./david.JPG", "name": "David", "class" : "Statue", "Country" : "Italy", "City" : "Florence", "height" : "5.17 m",
+		"additional_info" : "human, body, statue", "colur" : "grey, white", 
+        "description" : "David is a masterpiece of Renaissance sculpture created in marble between 1501 and 1504 by the Italian artist Michelangelo. 
+		David is a 5.17-metre (17.0 ft) marble statue of the Biblical hero David, a favoured subject in the art of Florence."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./basilicasantasofia.jpeg", "name": "Hagia Sophia", "class" : "Patriarchal Cathedral", "Country" : "Turkey", "City" : "Istanbul", "height" : "55 m",
+		"additional_info" : "cupola, columns, tower, window, door, sky", "colur" : "grey, yellow, lightblue, blue", 
+        "description" : "Hagia Sophia is the former Greek Orthodox Christian patriarchal cathedral, later an Ottoman imperial mosque and now a museum in Istanbul,
+		Turkey. Built in 537 AD at the beginning of the Middle Ages, it was famous in particular for its massive dome. It was the world's largest building and an 
+		engineering marvel of its time. It is considered the epitome of Byzantine architecture and is said to have changed the history of architecture."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./baldacchinosanpietro.jpeg", "name": "St. Peter's Baldachin", "class" : "Baldachin", "Country" : "Italy", "City" : "Rome", "height" : "",
+		"additional_info" : "cupola, columns, statue", "colur" : "grey, yellow, gold, white", 
+        "description" : "St. Peter's Baldachin (Italian: Baldacchino di San Pietro, L'Altare di Bernini) is a large Baroque sculpted bronze canopy, technically called a 
+		ciborium or baldachin, over the high altar of St. Peter's Basilica in the Vatican City, the papal enclave surrounded by Rome, Italy. The baldachin is at the 
+		center of the crossing, and directly under the dome of the basilica."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./nuraghe.jpeg", "name": "Nuraghe", "class" : "Megalithic edifice", "Country" : "Italy", "City" : "Sardinia", "height" : "",
+		"additional_info" : "tower, door, rovine, sky, claud", "colur" : "grey, yellow, blue, green", 
+        "description" : "The nuraghe is the main type of ancient megalithic edifice found in Sardinia, developed during the Nuragic 
+		Age between 1900 and 730 B.C. Today it has come to be the symbol of Sardinia and its distinctive culture, the Nuragic civilization. 
+		More than 7000 nuraghes have been found, though archeologists believe that originally there were more than 10,000."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./eiffel_tower.jpeg", "name": "Eiffel Tower", "class" : "Tower", "Country" : "France", "City" : "Paris", "height" : "324 m",
+		"additional_info" : "tower, sky, claud", "colur" : "grey, blue, green", 
+        "description" : "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel,
+		whose company designed and built the tower."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./tempio_haeinsa.jpeg", "name": "Haeinsa", "class" : "Temple", "Country" : "South Korea", "City" : " South Gyeongsang Province", "height" : "",
+		"additional_info" : "stairs, sky, claud, door", "colur" : "grey, blue, green, red", 
+        "description" : "Haeinsa is a head temple of the Jogye Order of Korean Seon Buddhism in Gayasan National Park, South Gyeongsang Province, South Korea. 
+		Haeinsa is most notable for being the home of the Tripitaka Koreana, the whole of the Buddhist Scriptures carved onto 81,350 wooden printing blocks, 
+		which it has housed since 1398."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./arcotrionfo.jpeg", "name": "Arch de Triomphe", "class" : "Arch", "Country" : "France", "City" : "Paris", "height" : "50 m",
+		"additional_info" : "Port, door, light, lamp, sky", "colur" : "blue, yellow", 
+        "description" : "The Arc de Triomphe de l'Étoile is one of the most famous monuments in Paris, France, standing at the western end of the 
+		Champs-Élysées at the centre of Place Charles de Gaulle, formerly named Place de l'Étoile — the étoile or "star" of the juncture formed by its 
+		twelve radiating avenues. The location of the arc and the plaza is shared between three arrondissements, 16th (south and west), 17th (north) and 
+		8th (east). The Arc de Triomphe honours those who fought and died for France in the French Revolutionary and Napoleonic Wars, with the names of 
+		all French victories and generals inscribed on its inner and outer surfaces. Beneath its vault lies the Tomb of the Unknown Soldier from 
+		World War I."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./ponte_coperto.jpeg", "name": "Covered Bridge", "class" : "Bridge", "Country" : "Italy", "City" : "Pavia", "height" : "",
+		"additional_info" : "Sky, Bridge, Window, river", "colur" : "blue, yellow, green", 
+        "description" : "The Ponte Coperto ("covered bridge") or the Ponte Vecchio ("Old Bridge") is a brick and stone arch bridge over the Ticino River in Pavia, Italy."
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./bronziriace.jpg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./cattedralesangiacomo.jpg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./sagradafamilia.jpeg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./mausoleokhoja.jpeg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./londoneye.jpg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./pietavaticana.jpeg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+
+db.pic.insertOne({ 
+
+		"rel" : "./tajmahal.jpeg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./notredame.jpeg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./giralda.jpeg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./chichenitza.jpeg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./pantheonatene.jpg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./stonehenge.jpg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./moscheaomayyadi.jpeg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./colosseo.jpeg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./primatorresmarino.jpg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./muragliacinese.jpeg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./arenaverona.jpg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
+db.pic.insertOne({ 
+
+		"rel" : "./moleantonelliana.jpg", "name": null, "class" : null, "Country" : null, "City" : null, "height" : null,
+		"additional_info" : null, "colur" : null, 
+        "description" : null
+       
+        	}
+	)
