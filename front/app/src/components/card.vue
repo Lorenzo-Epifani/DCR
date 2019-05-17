@@ -6,9 +6,27 @@
         </md-card-media>
 
         <md-card-area>
-          <md-card-header>
-            <span class="md-title">{{title}}</span>
-          </md-card-header>
+          <md-card-expand>
+        <md-card-actions md-alignment="space-between">
+         
+
+          <md-card-expand-trigger>
+            <md-button>{{title}}</md-button>
+          </md-card-expand-trigger>
+        </md-card-actions>
+
+        <md-card-expand-content>
+          <md-card-content>
+            <md-content class="md-scrollbar">
+       Placed in {{City}}, {{Country}}<br/><br/>
+            {{description}} 
+         </md-content>
+        
+          </md-card-content>
+        </md-card-expand-content>
+      </md-card-expand>
+      
+         
         </md-card-area>
       </md-card-media-cover>
     </md-card>
@@ -25,6 +43,9 @@
                 
                 source:this.picture.rel,
                 title:null,
+                description:null,
+                City:null,
+                Country: null,
                 }
     },
     props: {
@@ -34,6 +55,9 @@
     
     mounted () {
         this.title=this.picture.name;
+        this.description=this.picture.description;
+        this.City=this.picture.City;
+        this.Country=this.picture.Country;
         console.log(this.source)
 
     },
@@ -60,5 +84,24 @@
 div#cards {
     text-align: left;
 }
+
+.md-card-expand {
+    max-height: 72px;
+}
+
+.md-expand-active .md-card-expand{
+
+    max-height:278px;
+}
+
+  .md-content {
+    max-width: 300px;
+    max-height: 200px;
+    overflow: auto;
+  }
+  .md-card-content{
+
+        padding-top: 0px;
+  }
  </style>
  
