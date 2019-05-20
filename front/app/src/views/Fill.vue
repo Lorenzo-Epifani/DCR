@@ -1,31 +1,38 @@
 <template>
   <div class="fill">
     <h1>This is a fill page</h1>
-      <div v-for="item in arraypic" >
-           <div>{{item.rel}}</div>  <!--specificare la seleione dell elemento del json-->
-
-      </div>
-
+     
+      <carousel>
+        <slide v-for="item in arraypic" id="cardNull">
+          <cardNull v-bind:picture="item"></cardNull>
+         </slide>
+    </carousel>
   </div>
 </template>
 
 
  <script>
+ import cardNull from '../components/cardNull'
+ import { Carousel, Slide } from 'vue-carousel';
   import * as api from '../api/api.js';
 
 export default {
   name: 'fill',
 
-  components: {
-    
-    },
+ components: {
+    cardNull,
+    Carousel,
+    Slide
+  },
 
   data () {
+    
     return {  
-              arraypic:null,
-              output:null
-      }
-    },
+      
+      arraypic:null,
+      output:null
+    }
+  },
 
   mounted () {
     api
@@ -42,6 +49,6 @@ export default {
  
  
  <style>
- 
+
  </style>
  

@@ -26,7 +26,7 @@ function startconnect (callback){
 
 const findAll = function(db, callback) {  //GETALL
   var resultArray = [];
-  var cursor = db.collection('pic').find();
+  var cursor = db.collection('pic').find( { $or: [ { name: null}, {Country: null}, {City: null}, {height: null}, {colur: null}, {description: null} ] } );
   cursor.forEach(function(doc,err){
     assert.equal(null,err);
     resultArray.push(doc);
