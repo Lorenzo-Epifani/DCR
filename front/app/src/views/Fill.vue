@@ -1,6 +1,6 @@
 <template>
   <div class="fill">
-    <h1>This is a fill page</h1>
+    <h1>Describe the pictures below</h1>
      
       <carousel>
         <slide v-for="item in arraypic" id="cardNull">
@@ -12,6 +12,7 @@
 
 
  <script>
+ 
  import cardNull from '../components/cardNull'
  import { Carousel, Slide } from 'vue-carousel';
   import * as api from '../api/api.js';
@@ -49,6 +50,9 @@ export default {
  
  
  <style>
+ .fill * {
+   animation: fadein 2s
+ }
 
  </style>
  

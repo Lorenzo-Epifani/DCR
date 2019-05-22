@@ -30,11 +30,9 @@
                </div>  
 
           </div>
-
            <md-tabs class="phone"  md-sync-route>
                  <md-tab id="tab-1" md-label="meta" md-icon="dashboard" to="/fill"></md-tab>
                  <md-tab id="tab-2" md-label="search" md-icon="dashboard" to="/search"></md-tab>
-
           </md-tabs>
       </div>
 
@@ -53,7 +51,7 @@ export default {
 .mainselect {
     display: flex;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 0px;
 
 
 }
@@ -66,23 +64,23 @@ export default {
 
 #btn2 {
         
-         animation: fadein 3s 1s, delayinv 1s;
+         animation: fadein 1s 2s, delayinv 2s;
 
 
 }
 
 #btn1 {
-      animation: fadein 3s;
+      animation: fadein 1s 2s, delayinv 2s;
 }
 
  i.md-icon.md-icon-font.md-theme-default {
-    color: #EF6C00
+    color: black
 ;
 }
 
 btntxt {
      zoom: 0.33;
-     color: #EF6C00
+     color: black
 ;
      font-family: custom;
 
@@ -108,6 +106,13 @@ btntxt {
 
 }
 
+.md-tabs.phone.md-alignment-left.md-theme-default {
+background-color: black;
+
+}
+.phone .md-button-content, .phone i.md-icon.md-icon-font.md-tab-icon.md-theme-default {
+    color: white;
+}
 
 
 /* ----------------------------------RESPONSIVE---------------------------------- */

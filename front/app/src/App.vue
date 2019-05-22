@@ -24,7 +24,7 @@ export default {
 #app {
 
   text-align: center;
-  color: #EF6C00
+  color: black
 }
 #nav {
   padding: 30px;
@@ -36,8 +36,9 @@ export default {
 
 html.md-theme-default {
 
-  background-color: #D7CCC8
+  background-color: white
 
 
 }
+
 </style>

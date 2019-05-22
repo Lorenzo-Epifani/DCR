@@ -1,7 +1,11 @@
 <template>
   <div class="home">
+        <img id="mainlogo" src="./logo.png">
+        <Welcome id="wel" msg="Welcome to"/>
+        <img id="textlogo" src="./mow.png">
+
+
     <!--<img alt="Vue logo" src="../assets/logo.png">-->
-    <Welcome msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
@@ -16,3 +20,22 @@ export default {
   }
 }
 </script>
+
+<style>
+img#mainlogo {
+    zoom: 0.4;
+    animation: fadein 1s
+}
+#wel {
+      animation: fadein 1s
+
+}
+img#mainlogo:hover {
+  animation: lds-heart 1s  infinite
+}
+img#textlogo {
+  animation: fadein 2s 1s, delayinv 1s;
+
+}
+</style>
+

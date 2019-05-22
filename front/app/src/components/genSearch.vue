@@ -57,4 +57,7 @@ export default {
     display: inline;
     zoom: 3,
 }
+div.genSearch {
+    animation: fadein 2s
+}
 </style>
