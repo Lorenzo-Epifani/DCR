@@ -1,8 +1,16 @@
 const axios = require('axios');//livello tra front end e db per richiedere e spacchettare i json
 
+//INSERT IP ADDRESS IN LOCAL NETWORK
+export function baseURL(){
+  //var baseURL='http://localhost:3000';
+  var baseURL='http://192.168.43.94:3000';
+  return baseURL
+};
+
 const instance = axios.create({
-  baseURL: 'http://localhost:3000',
-  timeout: 1000
+  //baseURL: 'http://localhost:3000',
+  baseURL: 'http://192.168.43.94:3000',
+  timeout: 10000
 });
 
 export async function getAllData () {
@@ -22,3 +30,4 @@ export async function getAllData () {
 
     return response.data
   }
+

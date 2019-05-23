@@ -32,7 +32,7 @@
           </div>
            <md-tabs class="phone"  md-sync-route>
                  <md-tab id="tab-1" md-label="meta" md-icon="dashboard" to="/fill"></md-tab>
-                 <md-tab id="tab-2" md-label="search" md-icon="dashboard" to="/search"></md-tab>
+                 <md-tab id="tab-2" md-label="search" md-icon="search" to="/search"></md-tab>
           </md-tabs>
       </div>
 

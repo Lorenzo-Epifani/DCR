@@ -4,7 +4,7 @@
         <md-card-media-cover md-solid>
             
             <md-card-media md-ratio="4:3">
-                <img :src="getImgUrl(this.source)" alt='error'>
+                <img :src="this.source" alt='error'>
             </md-card-media>
 
             <md-card-area>
@@ -31,6 +31,8 @@
 </template>
 
 <script>
+import * as api from '../api/api.js'
+
 export default {
 
     name:'cardNull',
@@ -48,7 +50,7 @@ export default {
     {
       return { 
                 
-                source:this.picture.rel,
+                source: api.baseURL()+'/picture/load/'+this.picture.rel,
                 title:null,
                 description:null,
                 City:null,
@@ -56,11 +58,7 @@ export default {
                 }
     },
 
-    methods: {
-      getImgUrl(pic) {
-        return require('../db_pic/'+pic);
-      }
-    }
+   
 
     
 }

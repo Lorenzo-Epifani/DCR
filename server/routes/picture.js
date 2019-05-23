@@ -50,5 +50,18 @@ router.post('/Search', function (req,res) {
    })
  });
 
+ router.get('/load/:rel', function(req, res){
+  var exp = req.params.rel;
+  
+  driver.startconnect(function(db){
+    driver.findPic(db,exp,function(dbres){
+      console.log( dbres[0].rel)
+      res.sendFile(dbres[0].rel, { root: __dirname+"/db_pic/" })
+      })
+    })
+
+
+  });
+
 module.exports = router;
 

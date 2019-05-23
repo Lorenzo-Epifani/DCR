@@ -50,6 +50,21 @@ const generalFind = function(db,exp, callback) {            //GENERAL TEXT SEARC
 }
 //QUERIES-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####
 
+
+const findPic = function(db,exp, callback) {  //GETALL
+  var resultArray = [];
+  var cursor = db.collection('pic').find({rel: exp});
+  cursor.forEach(function(doc,err){
+    assert.equal(null,err);
+    resultArray.push(doc);
+    }, function(){
+      //client.close();
+      callback(resultArray);
+    });
+}
+//QUERIES-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####-----####
+
 module.exports.startconnect = startconnect;
 module.exports.findAll = findAll;
 module.exports.generalFind = generalFind;
+module.exports.findPic = findPic;
